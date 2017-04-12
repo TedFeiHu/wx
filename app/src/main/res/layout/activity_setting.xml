@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:background="@color/back_ground"
+    android:layout_height="match_parent" android:orientation="vertical">
+
+     <include android:id="@+id/title_id" layout="@layout/activity_base"/>
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp"
+        >
+        <TextView style="@style/tv_sty" android:text="@string/safety"
+            android:paddingLeft="20dp"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <TextView style="@style/tv_sty" android:text="@string/news"
+            android:paddingLeft="20dp"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="0.5dp">
+        <TextView style="@style/tv_sty" android:text="@string/privacy"
+            android:paddingLeft="20dp"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="0.5dp">
+        <TextView style="@style/tv_sty" android:text="@string/ge"
+            android:paddingLeft="20dp"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <TextView style="@style/tv_sty" android:text="@string/about"
+            android:paddingLeft="20dp"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+
+    
+    <Button android:id="@+id/logout" android:layout_width="match_parent"
+        android:layout_height="50dp" android:layout_margin="10dp"
+        android:text="@string/logout" android:textColor="@color/white"
+        android:layout_marginTop="20dp" android:textSize="16sp"
+        android:background="@drawable/logout_btn"/>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include android:id="@+id/title_id" layout="@layout/activity_base"/>
+    
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_below="@id/title_id" android:padding="20dp">
+        
+         <TextView android:id="@+id/country" style="@style/login_tv"
+	        android:text="@string/country" />
+	    <TextView android:id="@+id/china" style="@style/login_tv"
+	        android:text="@string/china" android:layout_alignParentRight="true"
+	        android:layout_marginRight="10dp" android:layout_width="wrap_content"
+	        android:textColor="@color/green" />
+	    <View android:id="@+id/line" style="@style/line"
+	        android:layout_below="@id/country" android:layout_marginTop="4dp"
+	        />
+	    <ImageView android:layout_width="14dp" android:layout_height="14dp"
+	        android:background="@drawable/spinner"  android:layout_alignBottom="@id/line"
+	        android:layout_alignParentRight="true"/>
+	    
+	    <EditText android:id="@+id/user_name" android:layout_width="match_parent"
+	        android:layout_height="wrap_content" android:paddingLeft="100dp"
+	        android:hint="@string/you_phone" android:layout_below="@id/line"
+	        android:layout_marginTop="20dp" android:textSize="18sp"
+	        android:background="@drawable/logon_edt"  android:inputType="number"
+	        android:maxLength="11"  android:singleLine="true"
+	        android:text="13211111111"/>
+	    <TextView android:id="@+id/phone" style="@style/login_tv"
+	        android:text="@string/p_86"  android:layout_alignTop="@id/user_name"
+	        android:layout_alignBottom="@id/user_name"/>
+	    
+	    <EditText android:id="@+id/pass" android:layout_width="match_parent"
+	        android:layout_height="wrap_content" android:paddingLeft="100dp"
+	        android:hint="@string/you_password" android:layout_below="@id/user_name"
+	        android:layout_marginTop="20dp" android:textSize="18sp"
+	        android:background="@drawable/logon_edt" android:password="true"
+	        android:singleLine="true" android:maxLength="16"
+	        android:text="13211111111"/>
+	    <TextView android:id="@+id/pass_tv" style="@style/login_tv"
+	        android:text="@string/password"  android:layout_alignTop="@id/pass"
+	        android:layout_alignBottom="@id/pass"/>
+	    
+	    <Button android:id="@+id/logon" android:layout_width="match_parent"
+	        android:layout_height="42dp" android:background="@drawable/logon_btn"
+	        android:text="@string/logon" android:layout_below="@id/pass"
+	        android:layout_marginTop="22dp" android:textColor="@color/white"
+	        android:textSize="19sp" />
+	    
+	    <TextView android:id="@+id/problem" android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" android:textColor="@color/problem"
+	        android:text="@string/problem" android:layout_below="@id/logon"
+	        android:layout_alignParentRight="true" android:textSize="16sp"
+	        android:layout_marginTop="16dp"/>
+	    <!-- android:layout_marginBottom="2dp" 使用这个让btn的阴影部分不进入到父类的padding里 -->
+	    <Button android:id="@+id/login" android:layout_width="80dp"
+	        android:layout_height="42dp" android:background="@drawable/login_btn_s"
+	        android:text="@string/login" android:layout_alignParentBottom="true"
+	        android:textSize="19sp" android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="2dp"/>
+    </RelativeLayout>
+</RelativeLayout>

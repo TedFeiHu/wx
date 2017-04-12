@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:background="@drawable/me_press_back"
+    android:layout_height="60dp" android:padding="7dp">
+
+    <com.wuxinaedu.weixin.widget.RoundImageView android:id="@+id/head_id" 
+        android:layout_width="50dp" android:layout_height="50dp"
+        android:layout_centerVertical="true" android:layout_marginLeft="4dp"
+        android:src="@drawable/head_nor" android:layout_marginRight="12dp"/>
+    <TextView  android:id="@+id/news_num_id" android:layout_height="16dp"
+        android:layout_width="16dp" android:background="@drawable/aii"
+        android:layout_alignTop="@id/head_id"  android:layout_alignRight="@id/head_id"
+        android:textColor="@color/white" android:text="3" 
+        android:gravity="center"/>
+    <TextView android:id="@+id/name_id" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="@color/black"
+        android:textSize="15sp" android:text="@string/test"
+        android:singleLine="true" android:layout_toRightOf="@id/head_id"
+        android:layout_marginTop="5dp" android:layout_toLeftOf="@+id/time_id"/>
+    <TextView android:id="@+id/last_str_id" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginBottom="2dp"
+        android:textSize="13sp" android:text="@string/test"
+        android:singleLine="true" android:layout_toRightOf="@id/head_id"
+        android:layout_alignBottom="@id/head_id" android:layout_toLeftOf="@+id/time_id"/>
+    
+    <TextView android:id="@+id/time_id" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textSize="12sp" android:text="@string/safety"
+        android:singleLine="true" android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/name_id"/>
+    
+</RelativeLayout>

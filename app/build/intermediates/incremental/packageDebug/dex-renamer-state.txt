@@ -1,0 +1,7 @@
+#Fri Apr 07 13:42:58 CST 2017
+base.0=D\:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cb9116eeb14af02e5a4ab4cf6747acf7d6ceed28
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d3145b9a4ba5baab518a4dede931b0a424e33a2e\\classes.dex
+base.1=D\:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d3145b9a4ba5baab518a4dede931b0a424e33a2e
+file.0=D\:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_cb9116eeb14af02e5a4ab4cf6747acf7d6ceed28\\classes.dex

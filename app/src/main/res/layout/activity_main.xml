@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include android:id="@+id/title_id" layout="@layout/activity_base"/>
+    
+    
+   <RadioGroup android:id="@+id/rg_id" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+       <com.wuxinaedu.weixin.widget.MyRadioButton android:id="@+id/wx_id" style="@style/ra_style"
+        	 android:drawableTop="@drawable/weixin_selector" android:text="@string/app_name"
+        	 android:checked="true"/>
+       <com.wuxinaedu.weixin.widget.MyRadioButton android:id="@+id/contacts_id" style="@style/ra_style"
+        	 android:drawableTop="@drawable/contact_selector" android:text="@string/contact"/>
+       <com.wuxinaedu.weixin.widget.MyRadioButton android:id="@+id/find_id" style="@style/ra_style"
+        	 android:drawableTop="@drawable/find_selector" android:text="@string/find"/>
+       <com.wuxinaedu.weixin.widget.MyRadioButton android:id="@+id/me_id" style="@style/ra_style"
+        	 android:drawableTop="@drawable/me_selector" android:text="@string/me"/>
+    </RadioGroup>
+   
+   <!-- 线 -->
+    <View style="@style/line" android:layout_alignTop="@+id/rg_id"/>
+   <!-- body 部分 -->
+    <android.support.v4.view.ViewPager android:id="@+id/fl_id" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_below="@id/title_id"
+        android:layout_above="@id/rg_id" />
+</RelativeLayout>

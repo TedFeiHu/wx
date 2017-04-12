@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/back_ground" >
+
+    <include android:id="@+id/title_id" layout="@layout/activity_base"/>
+    
+    <com.wuxinaedu.weixin.widget.RoundImageView android:id="@+id/head_id"
+        android:layout_width="70dp" android:layout_height="70dp"
+        android:src="@drawable/head_nor" android:layout_margin="12dp"
+        android:layout_below="@id/title_id"/>
+    <TextView android:id="@+id/name_id" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textColor="@color/black"
+        android:layout_toRightOf="@id/head_id" android:layout_alignTop="@id/head_id"
+        android:text="@string/wx_name" android:singleLine="true" 
+        android:layout_marginTop="14dp" android:textSize="17sp"/>
+    
+    <ImageView android:id="@+id/iv_id" android:layout_width="18dp"
+        android:layout_height="18dp" android:layout_marginLeft="6dp"
+        android:src="@drawable/ic_sex_female" android:layout_toRightOf="@id/name_id"
+        android:layout_alignTop="@id/name_id" android:layout_alignBottom="@id/name_id"/>
+    <TextView  android:id="@+id/wx_code" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/wx_code"
+        android:layout_alignBottom="@id/head_id" android:layout_marginBottom="9dp"
+        android:layout_toRightOf="@id/head_id" android:textSize="15sp"/>
+    
+    <TextView  android:id="@+id/area" style="@style/info_tv"
+        android:text="@string/area" android:layout_below="@id/head_id"/>
+    <TextView  android:id="@+id/area_id"  style="@style/info_id_tv"
+        android:text="@string/autograph"  android:layout_toRightOf="@id/area"
+        android:layout_below="@id/head_id" />
+    <TextView  android:id="@+id/autograph" style="@style/info_tv"
+        android:text="@string/autograph" android:layout_below="@id/area"/>
+    <TextView  android:id="@+id/autograph_id"  style="@style/info_id_tv"
+        android:text="@string/autograph"  android:layout_toRightOf="@id/autograph" 
+        android:layout_below="@id/area"/>
+    
+    <RelativeLayout style="@style/rl_sty" android:layout_height="70dp"
+        android:layout_below="@id/autograph" android:id="@+id/bottom_id">
+       	<TextView  android:id="@+id/photo" style="@style/info_tv"
+       		android:text="@string/my_photoes" android:layout_centerVertical="true"
+       		android:background="@color/trans"/>
+        <com.wuxinaedu.weixin.widget.GridViewNOScroll android:id="@+id/gv_id" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_toRightOf="@id/photo"
+            android:layout_marginRight="20dp" android:numColumns="4"
+            android:layout_centerVertical="true"
+            android:columnWidth="50dp" android:stretchMode="spacingWidth"
+            android:clickable="false"/>
+         <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <View style="@style/line1" android:layout_below="@id/area"
+        android:id="@+id/line1" android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    
+    <View style="@style/line1" android:layout_below="@id/autograph"
+        android:id="@+id/line2" android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+     
+    <Button android:id="@+id/chat_id" android:layout_width="match_parent"
+         android:layout_height="50dp" android:layout_marginTop="28dp"
+         android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+         android:background="@drawable/logon_btn" android:layout_below="@id/bottom_id"
+         android:textColor="@color/white" android:textSize="18sp"
+         android:text="@string/send_message"/>
+</RelativeLayout>

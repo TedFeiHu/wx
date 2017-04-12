@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\title_press.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\title_press.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logon_press.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\logon_press.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\send_voice_btn_yes.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\send_voice_btn_yes.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\time_back.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\time_back.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\send_voice_btn_no.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\send_voice_btn_no.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_s_no.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\login_btn_s_no.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\send_voice_selector.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\send_voice_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_selector.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\contact_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logout_btn.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\logout_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_bottom_tv_selector.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\main_bottom_tv_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_add_icon.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\chat_add_icon.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logon_edt.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\logon_edt.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_style.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\checkbox_style.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\speak_tv_background.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\speak_tv_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logon_btn.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\logon_btn.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_me_selector.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\chat_me_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\weixin_selector.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\weixin_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logon_no.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\logon_no.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_selector.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\find_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_s_press.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\login_btn_s_press.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\clear_press.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\clear_press.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_s.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\login_btn_s.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_edt.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\chat_edt.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_face.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\chat_face.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logout_press.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\logout_press.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\speak_background.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\speak_background.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_voice.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\chat_voice.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me_selector.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\me_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\me_press_back.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\me_press_back.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_keyboard.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\chat_keyboard.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logout_nom.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable\\logout_nom.xml"
+    }
+]

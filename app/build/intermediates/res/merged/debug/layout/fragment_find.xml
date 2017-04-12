@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:background="@color/back_ground"
+    android:layout_height="match_parent" android:orientation="vertical">
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp"
+        android:id="@+id/friends_id">
+        <ImageView style="@style/im_sty" android:src="@drawable/v2"/>
+        <TextView style="@style/tv_sty" android:text="@string/friends"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_de_saoyisao"/>
+        <TextView style="@style/tv_sty" android:text="@string/sweep"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+     <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="0.5dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_de_yao"/>
+        <TextView style="@style/tv_sty" android:text="@string/shake"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_de_nearby"/>
+        <TextView style="@style/tv_sty" android:text="@string/nearby"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="0.5dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_de_ping"/>
+        <TextView style="@style/tv_sty" android:text="@string/drift"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_de_shop"/>
+        <TextView style="@style/tv_sty" android:text="@string/shopping"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="0.5dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_de_game"/>
+        <TextView style="@style/tv_sty" android:text="@string/game"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+</LinearLayout>

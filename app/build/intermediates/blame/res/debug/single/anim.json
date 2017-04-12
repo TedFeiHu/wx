@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_out.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\anim\\head_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\video_frame.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\anim\\video_frame.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\head_in.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\anim\\head_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\video.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\anim\\video.xml"
+    }
+]

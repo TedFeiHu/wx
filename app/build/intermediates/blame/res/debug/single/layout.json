@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_subscribe_details.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_subscribe_details.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_contacts.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pop.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_pop.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat_bottom_menu.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_chat_bottom_menu.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_me.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\fragment_me.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_contacts_head_view.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_contacts_head_view.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_group.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_group.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_details_iamge.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_details_iamge.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_header_image.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_group_header_image.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pop_item.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_pop_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_detail.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_image_detail.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_friend.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_add_friend.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_friends.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_add_friends.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_friends.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_friends.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\fragment_find.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group_head.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_group_head.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_add_friends_head.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_add_friends_head.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_face.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_face.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_wx.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\fragment_wx.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_friends_iamge.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_friends_iamge.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_friends.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_friends.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_we.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_we.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\chat_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_image_detail.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_image_detail.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sub_details.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_sub_details.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_subscribe.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_subscribe.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_details.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_details.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_group.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_group.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_friends_head_view.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\layout\\item_friends_head_view.xml"
+    }
+]

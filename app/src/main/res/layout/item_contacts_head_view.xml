@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/back_ground" >
+    <com.wuxinaedu.weixin.widget.ClearEditText android:id="@+id/ed_id" android:layout_width="match_parent"
+        android:layout_height="35dp" android:background="@drawable/search_ba"
+        android:paddingLeft="40dp" android:hint="搜索"
+        android:textSize="13sp" android:drawableRight="@drawable/clear_press"
+        android:drawablePadding="10dp" android:paddingRight="10dp"
+        android:singleLine="true" android:layout_margin="15dp"/>
+    <ImageView android:id="@+id/head_id" android:layout_height="16dp"
+        android:layout_width="16dp" android:layout_alignBottom="@id/ed_id"
+        android:layout_alignTop="@id/ed_id" android:src="@drawable/search_icon" 
+        android:layout_marginLeft="28dp"/>
+    <View style="@style/line11" android:layout_below="@id/ed_id"/>
+    <!-- 用于搜索时隐藏 此多项 -->
+    <RelativeLayout android:id="@+id/head_view_id" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_below="@id/ed_id">
+	    <TextView android:id="@+id/new_friend_id" style="@style/contacts_tv"
+	        android:text="@string/new_friend" />
+	    <com.wuxinaedu.weixin.widget.RoundImageView 
+	        style="@style/contacts_im" android:src="@drawable/icon_addfriend" />
+	    
+	    <TextView android:id="@+id/group_id" style="@style/contacts_tv"
+	        android:text="@string/group" android:layout_below="@id/new_friend_id" />
+	    <com.wuxinaedu.weixin.widget.RoundImageView 
+	        style="@style/contacts_im" android:src="@drawable/icon_qunliao"
+	        android:layout_below="@id/new_friend_id"/>
+	    <TextView android:id="@+id/public_id" style="@style/contacts_tv"
+	        android:text="@string/public_num" android:layout_below="@+id/group_id" />
+	    <com.wuxinaedu.weixin.widget.RoundImageView android:id="@id/head_id"
+	        style="@style/contacts_im" android:src="@drawable/icon_public"
+	        android:layout_below="@id/group_id"/>
+    </RelativeLayout>
+</RelativeLayout>

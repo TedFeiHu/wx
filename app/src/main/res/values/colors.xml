@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="back_ground">#E9E9E9</color>
+    <color name="back">#2B2B2B</color>
+    <color name="back_pressed">#101010</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#23b223</color>
+    <color name="line">#9b9b9b</color>
+    <color name="problem">#34679A</color>
+    <color name="login_s_no">#EFEFEF</color>
+    <color name="white_pree">#C6C5C5</color>
+    <color name="green_pressed">#0A940A</color>
+    <color name="line_11">#11000000</color>
+    <color name="trans">#00000000</color>
+    
+    <color name="logout_nom">#FC5050</color>
+    <color name="logout_press">#D24141</color>
+    
+    <color name="friend_name">#4CC4F7</color>
+    
+    <color name="black_70">#70000000</color>
+    <color name="black_30">#30000000</color>
+    <color name="black_50">#50000000</color>
+    <color name="black_90">#90000000</color>
+
+    
+    <color name="light_red">#CD0000</color>
+</resources>

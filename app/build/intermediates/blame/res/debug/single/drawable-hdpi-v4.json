@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item4.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\list_item4.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\head_nor.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\head_nor.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item1.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\list_item1.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\welcome.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item2.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\list_item2.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item6.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\list_item6.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item5.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\list_item5.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\list_item3.jpg",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\list_item3.jpg"
+    },
+    {
+        "merged": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\activity_add_friend.xml",
+        "source": "D:\\Android\\AndroidProjectWorkspace\\weixin-master\\app\\src\\main\\res\\drawable-hdpi\\activity_add_friend.xml"
+    }
+]

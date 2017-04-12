@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/back_ground" android:orientation="vertical">
+    
+    <RelativeLayout android:id="@+id/rl_id" android:layout_width="match_parent"
+        android:layout_height="66dp" android:background="@drawable/me_press_back"
+        android:clickable="true" android:layout_marginTop="10dp">
+        <com.wuxinaedu.weixin.widget.RoundImageView android:id="@+id/head"
+            android:layout_width="50dp" android:layout_height="50dp"
+            android:layout_margin="8dp" android:src="@drawable/head_nor"/>
+        <TextView android:id="@+id/wx_name" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/black"
+            android:text="@string/wx_name" android:layout_toRightOf="@id/head"
+            android:layout_marginBottom="2dp" android:layout_alignTop="@id/head"
+            android:layout_marginTop="6dp" android:textSize="15sp"/>
+        <TextView android:id="@+id/wx_code" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="@color/black"
+            android:text="@string/wx_code" android:layout_toRightOf="@id/head"
+            android:layout_alignBottom="@id/head" android:layout_marginBottom="3dp"
+            android:textSize="15sp"/>
+        <ImageView android:layout_width="18dp" android:layout_height="18dp"
+            android:src="@drawable/ic_sex_female" android:layout_toRightOf="@id/wx_name"
+            android:layout_alignBottom="@id/wx_name" android:layout_marginLeft="6dp"/>
+        <ImageView android:layout_width="18dp" android:layout_height="18dp"
+            android:src="@drawable/right" android:layout_centerVertical="true"
+            android:layout_alignParentRight="true" android:layout_marginRight="8dp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_me_photo"/>
+        <TextView style="@style/tv_sty" android:text="@string/photoes"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="0.5dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_me_collect"/>
+        <TextView style="@style/tv_sty" android:text="@string/collecton"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty" android:layout_marginTop="0.5dp" >
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_me_money"/>
+        <TextView style="@style/tv_sty" android:text="@string/wallet"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty" android:layout_marginTop="0.5dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_me_card"/>
+        <TextView style="@style/tv_sty" android:text="@string/cards"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_me_smail"/>
+        <TextView style="@style/tv_sty" android:text="@string/face"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+    
+    <RelativeLayout android:id="@+id/setting_id"
+        style="@style/rl_sty"  android:layout_marginTop="20dp">
+        <ImageView style="@style/im_sty" android:src="@drawable/icon_me_setting"/>
+        <TextView style="@style/tv_sty" android:text="@string/setting"/>
+        <ImageView style="@style/im_rigent_sty"  android:src="@drawable/right"/>
+    </RelativeLayout>
+</LinearLayout>

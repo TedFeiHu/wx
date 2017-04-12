@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<!-- 标题栏 -->
+    <include android:id="@+id/title_id" layout="@layout/activity_base"/>
+    
+    <ListView android:id="@+id/lv_id" android:layout_width="match_parent"
+        android:layout_height="match_parent"  android:divider="@color/line_11" 
+        android:dividerHeight="0dp"  android:layout_below="@id/title_id"/>
+
+</RelativeLayout>

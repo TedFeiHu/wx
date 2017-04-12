@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/wuxinaedu/weixin/activity/fragment/ContactsFragment.java" />
+    </issue>
+    <issue id="InflateParams">
+        <ignore path="src/com/wuxinaedu/weixin/activity/FriendsActivity.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/MainActivity.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/adapter/FriendsAdapter.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/adapter/FriendsImageAdapter.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/adapter/GroupHeadAdapter.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/adapter/SubscribeAdapter.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/adapter/SubscribeDetailsAdapter.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/fragment/ContactsFragment.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/fragment/FindFragment.java" />
+        <ignore path="src/com/wuxinaedu/weixin/activity/fragment/MeFragment.java" />
+    </issue>
+    <issue id="ViewHolder">
+        <ignore path="src/com/wuxinaedu/weixin/activity/adapter/FriendsImageAdapter.java" />
+    </issue>
+</lint>

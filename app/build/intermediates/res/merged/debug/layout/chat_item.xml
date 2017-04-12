@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@color/back_ground"
+    >
+    <TextView android:id="@+id/sub_det_time" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="!!!!222222"
+        android:textColor="@color/white" android:background="@drawable/time_back"
+        android:textSize="12sp" android:padding="3dp"
+        android:layout_centerHorizontal="true" android:layout_marginTop="10dp"/>
+    <com.wuxinaedu.weixin.widget.RoundImageView android:id="@+id/chat_peer_head" android:layout_width="40dp"
+        android:layout_height="40dp" android:layout_marginLeft="10dp"
+        android:src="@drawable/head_nor" android:layout_below="@id/sub_det_time"
+        android:layout_marginTop="10dp" android:visibility="gone"/>
+    <TextView android:id="@+id/chat_peer_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:text="我不听我不听我不听。。。"
+        android:layout_toRightOf="@id/chat_peer_head" android:layout_alignTop="@id/chat_peer_head"
+        android:layout_marginLeft="10dp"   android:layout_marginRight="80dp"
+        android:minHeight="40dp"  android:gravity="center_vertical"
+		android:background="@drawable/balloon_l" android:visibility="gone"/><!-- chat_peer_selector -->
+    <com.wuxinaedu.weixin.widget.RoundImageView  android:id="@+id/chat_me_head" android:layout_width="40dp"
+        android:layout_height="40dp" android:layout_alignParentRight="true"
+        android:layout_below="@id/sub_det_time" android:layout_marginTop="10dp"
+        android:src="@drawable/head_nor" android:layout_marginRight="10dp"/>
+    <TextView android:id="@+id/chat_me_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  android:text="近咖啡鞠躬皮尔"
+        android:layout_toLeftOf="@id/chat_me_head" android:layout_alignTop="@id/chat_me_head"
+        android:layout_marginLeft="80dp"  android:layout_marginRight="10dp"
+        android:minHeight="40dp" android:gravity="center_vertical"
+        android:background="@drawable/chat_me_selector" android:visibility="visible" />
+    <ImageView android:id="@+id/chat_me_image" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:src="@drawable/list_item5"
+        android:scaleType="centerInside" android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/chat_me_head" android:layout_alignTop="@id/chat_me_head"
+        android:background="@drawable/chat_me_selector" android:visibility="gone"/>
+    <ImageView android:id="@+id/chat_me_voice" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:src="@anim/video"
+        android:scaleType="fitEnd" android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/chat_me_head" android:layout_alignTop="@id/chat_me_head"
+        android:background="@drawable/chat_me_selector"  android:paddingLeft="30dp"
+        android:visibility="visible" android:paddingRight="20dp"/>
+
+</RelativeLayout>

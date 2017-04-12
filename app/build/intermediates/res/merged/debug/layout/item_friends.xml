@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  android:padding="10dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <com.wuxinaedu.weixin.widget.RoundImageView  android:id="@+id/head_id" android:layout_width="50dp"
+        android:layout_height="50dp" android:src="@drawable/head_nor"
+        android:layout_marginRight="10dp"/>
+
+    <TextView android:id="@+id/name_id" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/test"
+        android:singleLine="true"  android:textColor="@color/friend_name"
+        android:layout_toRightOf="@id/head_id" android:textSize="17sp"
+        android:layout_alignTop="@id/head_id" android:layout_marginTop="4dp"/>
+    
+    <TextView android:id="@+id/content_id" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/test"
+        android:maxLines="3" android:layout_below="@id/name_id"
+        android:layout_toRightOf="@id/head_id" android:textSize="16sp"
+        android:layout_marginTop="6dp"/>
+    
+    <com.wuxinaedu.weixin.widget.GridViewForScroll android:id="@+id/gv_id" 
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/head_id"  android:layout_below="@id/content_id"
+		android:layout_marginTop="12dp" android:numColumns="3"
+		android:horizontalSpacing="2dp" android:verticalSpacing="2dp"
+		android:focusable="false" android:focusableInTouchMode="false"/>
+    
+    <TextView android:id="@+id/time_id" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:textSize="12sp"
+        android:text="12.13" android:layout_toRightOf="@id/head_id"
+        android:layout_below="@id/gv_id" android:layout_marginTop="10dp"/>
+    
+    <ImageView android:id="@+id/more_id" android:layout_width="16dp"
+        android:layout_height="16dp" android:src="@drawable/afr" 
+        android:layout_alignBottom="@id/time_id" android:layout_alignParentRight="true"/>
+    
+</RelativeLayout>

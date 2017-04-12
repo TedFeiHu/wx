@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:focusable="true"
+    android:focusableInTouchMode="true">
+ 	<!-- 标题栏 -->
+    <include android:id="@+id/title_id" layout="@layout/activity_base"/>
+    
+    <!-- 搜索 栏 -->
+    <LinearLayout android:id="@+id/serch_id" android:layout_below="@id/title_id"
+        android:layout_width="match_parent" android:layout_height="50dp"
+        android:orientation="horizontal" android:background="@color/white"
+        android:padding="2dp" android:gravity="center_vertical">
+        <com.wuxinaedu.weixin.widget.HorizontalListView android:id="@+id/serch_lv_id"
+            android:layout_width="42dp" android:layout_height="match_parent"/>
+        <com.wuxinaedu.weixin.widget.ClearEditText android:id="@+id/serch_ed_id" 
+            android:layout_width="match_parent" android:hint="@string/search"
+            android:layout_height="wrap_content" android:drawableRight="@drawable/clear_press"
+            android:background="@color/trans" android:paddingRight="10dp"
+            android:singleLine="true"/>
+    </LinearLayout>
+    <!-- 搜索图标 -->
+    <ImageView android:id="@+id/search_bar" android:layout_width="20dp"
+            android:layout_height="20dp" android:src="@drawable/search_icon"
+            android:scaleType="centerInside" android:layout_below="@id/title_id"
+            android:layout_margin="15dp" />
+    <View style="@style/line11" android:id="@+id/line"
+        android:layout_below="@id/serch_id"/>
+    <!-- body -->
+	<ListView android:id="@+id/lv_id" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:divider="@color/line_11"
+        android:dividerHeight="0.3dp" android:layout_below="@id/line"/>
+
+    <com.wuxinaedu.weixin.widget.SideBar android:id="@+id/sb_id" 
+        android:layout_width="26dp" android:layout_height="match_parent"
+        android:layout_alignParentRight="true"  android:layout_below="@id/line"/>
+    
+    <TextView android:id="@+id/tv_id" android:layout_width="60dp"
+        android:layout_height="60dp" android:background="@drawable/logon_no"
+        android:textColor="@color/white" android:text="A"
+        android:textSize="40sp" android:gravity="center"
+        android:layout_centerInParent="true" android:visibility="gone"/>
+</RelativeLayout>

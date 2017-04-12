@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView android:id="@+id/index_id" android:layout_width="match_parent"
+        android:layout_height="30dp" android:background="@color/back_ground"
+        android:text="A" android:gravity="center_vertical"
+        android:paddingLeft="10dp" android:textSize="15sp"
+        android:textStyle="bold" android:visibility="gone"/>
+    <RelativeLayout android:id="@+id/rl_id" android:layout_width="match_parent"
+        android:layout_height="58dp" android:background="@drawable/me_press_back"
+         android:layout_below="@id/index_id"
+        android:paddingLeft="10dp">
+        <com.wuxinaedu.weixin.widget.RoundImageView android:id="@+id/head_id"
+            android:layout_width="48dp" android:layout_height="48dp"
+            android:layout_margin="6dp" android:src="@drawable/head_nor"/>
+        <TextView android:id="@+id/name_id" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wx_name"  android:textSize="16sp"
+            android:layout_centerVertical="true" android:layout_toRightOf="@id/head_id"/>
+    </RelativeLayout>
+
+</RelativeLayout>

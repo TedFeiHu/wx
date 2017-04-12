@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/back_ground" >
+     <com.wuxinaedu.weixin.widget.ClearEditText android:id="@+id/ed_id" android:layout_width="match_parent"
+        android:layout_height="35dp" android:background="@drawable/search_ba"
+        android:paddingLeft="40dp" android:hint="@string/search"
+        android:textSize="13sp" android:drawableRight="@drawable/clear_press"
+        android:drawablePadding="10dp" android:paddingRight="10dp"
+        android:singleLine="true" android:layout_margin="15dp"/>
+    <ImageView android:id="@+id/head_id" android:layout_height="16dp"
+        android:layout_width="16dp" android:layout_alignBottom="@id/ed_id"
+        android:layout_alignTop="@id/ed_id" android:src="@drawable/search_icon" 
+        android:layout_marginLeft="28dp"/>
+
+    <View android:id="@+id/center_id"
+        android:layout_width="0.8dp" android:layout_height="match_parent"
+        android:layout_centerInParent="true" android:layout_below="@id/ed_id"/>
+    
+    <TextView android:id="@+id/phone_contact" android:layout_width="match_parent"
+        android:layout_height="80dp" android:layout_toLeftOf="@+id/center_id"
+        android:layout_below="@id/ed_id" android:background="@drawable/me_press_back"
+        android:gravity="bottom|center_horizontal" android:padding="10dp"
+        android:text="@string/add_phone_con" android:textSize="14sp"
+        android:clickable="true"/>
+    <ImageView android:layout_width="34dp" android:layout_height="34dp"
+        android:layout_toLeftOf="@+id/center_id" android:layout_below="@id/ed_id" 
+        android:src="@drawable/a6_" android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"/>
+    
+    <TextView android:id="@+id/qq_contact" android:layout_width="match_parent"
+        android:layout_height="80dp" android:layout_toRightOf="@+id/center_id"
+        android:layout_below="@id/ed_id" android:background="@drawable/me_press_back"
+        android:gravity="center_horizontal|bottom" android:clickable="true"
+        android:text="@string/add_qq_fri" android:textSize="14sp"
+        android:padding="10dp" />
+    <ImageView android:layout_width="34dp" android:layout_height="34dp"
+        android:layout_toRightOf="@+id/center_id" android:layout_below="@id/ed_id" 
+        android:src="@drawable/a6a" android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"/>
+    
+    <TextView  android:layout_width="match_parent"  android:layout_height="26dp"
+        android:layout_below="@id/qq_contact"  android:text="@string/new_friend"
+        android:gravity="center_vertical"  android:paddingLeft="20dp"
+        android:textSize="12sp"/>
+</RelativeLayout>
